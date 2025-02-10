@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 import Peer, { MediaConnection } from "peerjs";
-import { io, Socket } from "socket.io-client";
+import { Socket } from "socket.io-client";
 import MediaControls from "./MediaControls";
 import ChatPanel from "./ChatPanel";
 import LocalVideo from "./LocalVideo";
